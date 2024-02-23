@@ -4,7 +4,7 @@ import hobbitsRouter from "./routes/hobbits.js";
 import path from "path";
 
 const app = express();
-const port = 3002;
+const port = process.env.PORT || 3002;
 
 // Get the current directory path of the module
 const __dirname = path.resolve();
