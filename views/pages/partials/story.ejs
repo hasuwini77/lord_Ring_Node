@@ -1,0 +1,13 @@
+<div class="main-content">
+<% if (locals.story) { %>
+    <p> <%= story%>  </p>
+   <%   } %> 
+    </div>
+
+    <div>
+       <%   if (locals.elf) {  %>
+        <p class="elf-story">The elf in the story are:</p>
+        <% elf.forEach((elfic) => {  %> 
+ <p class="elf">  <%=  elfic  %> </p> 
+       <%  }) }  %> 
+    </div>

@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: burlywood;
+}
+
+body.heroes {
+  background-color: rgb(16, 44, 45);
+}
+
+body.hobbits {
+  background-color: rgb(226, 167, 84);
+}
+header {
+  padding: 24px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  max-width: 800px;
+  margin: auto;
+  padding: 16px;
+}
+
+.elf-story { 
+  font-size: 2rem;
+  color: white;
+
+}
+
+.elf { 
+  font-size: 1.2rem;
+  color: rgb(206, 206, 206);
+}
+
+nav ul li { 
+  background-color: burlywood;
+  font-size: 1.5rem;
+  padding: 10px;
+  
+}
+nav ul li:hover { 
+  background-color: white;
+  color: black;
+}
